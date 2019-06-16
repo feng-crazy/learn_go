@@ -1,7 +1,8 @@
 package main
+
 import (
-    "fmt"
-    "strconv"
+	"fmt"
+	"strconv"
 )
 
 type Element interface{}
@@ -35,4 +36,7 @@ func main() {
                 fmt.Println("list[%d] is of a different type", index)
         }
     }
+    //var person Person
+    person, ok := list[2].(Person)
+    fmt.Println(person.name, ok)
 }

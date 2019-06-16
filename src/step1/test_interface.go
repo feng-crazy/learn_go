@@ -14,6 +14,7 @@ type _3GPhone struct {
 
 type NokiaPhone struct {
 	_3GPhone
+	price int
 }
 
 func (nokiaPhone NokiaPhone) call() {
@@ -33,6 +34,13 @@ func main() {
 
 	phone = new(NokiaPhone)
 	phone.call()
+	//fmt.Print(phone.price)
+
+	nokiaPhone := NokiaPhone{price: 1000}
+	fmt.Println(nokiaPhone.price)
+
+	//phone = nokiaPhone
+	//	//fmt.Print(phone.price)
 
 	phone = new(IPhone)
 	phone.call()
