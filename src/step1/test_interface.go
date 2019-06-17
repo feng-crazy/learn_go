@@ -5,49 +5,47 @@ import (
 )
 
 type Phone interface {
-	call() bool
+	call()
 }
 
 type _3GPhone struct {
-	//Phone
+	Phone
 }
 
 type NokiaPhone struct {
 	_3GPhone
-	price int32
+	price int
 }
 
-func (nokiaPhone NokiaPhone) call() bool{
+func (nokiaPhone NokiaPhone) call() {
 	fmt.Println("I am Nokia, I can call you!")
-	return true
 }
 
 type IPhone struct {
 	_3GPhone
-	price int32
 }
 
-func (iPhone IPhone) call() bool {
+func (iPhone IPhone) call() {
 	fmt.Println("I am iPhone, I can call you!")
-	return true
 }
 
 func main() {
 	var phone Phone
 
 	phone = new(NokiaPhone)
-	fmt.Println(phone)
 	phone.call()
+	//fmt.Print(phone.price)
+
+	nokiaPhone := NokiaPhone{price: 1000}
+	fmt.Println(nokiaPhone.price)
+
+	//phone = nokiaPhone
+	//	//fmt.Print(phone.price)
 
 	phone = new(IPhone)
-	fmt.Println(phone)
 	phone.call()
 
-	phone = IPhone{price:1500}
-	fmt.Println(phone)
+	phone = IPhone{}
 	phone.call()
 
-	phone = &IPhone{}
-	fmt.Println(phone)
-	phone.call()
 }
