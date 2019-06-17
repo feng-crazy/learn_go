@@ -2,54 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="364a3377-4f29-41c7-9487-3854a0bd2cc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/learn_go.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/ReadME.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/ReadME.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step1/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step1/test_argv...go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step1/test_array.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step1/test_array2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step1/test_chanel.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step1/test_chanel_list.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step1/test_continue.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step1/test_defer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step1/test_error_handle.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step1/test_func.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step1/test_goroutine.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step1/test_goroutine1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step1/test_innert.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step1/test_interface.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step1/test_list.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step1/test_map.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step1/test_map_sort.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step1/test_mem_mothon_ptr.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step1/test_member_func.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step1/test_mutimap.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step1/test_overwirte.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step1/test_pointer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step1/test_pointer2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step1/test_rand.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step1/test_range.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step1/test_runtime.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step1/test_select.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step1/test_slice.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step1/test_strconv.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step1/test_struct.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step1/test_struct2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step1/test_struct_method.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step1/test_tag.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step1/test_time.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step1/test_tmp.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step1/test_unicode.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step1/test_where.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step2/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step2/test_pack_1/test_package1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step2/test_pack_1/test_package1_2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/step2/test_pack_2/test_package2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/step1/test_interface2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/step1/test_interface_type.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/step1/test_interface.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/step1/test_interface.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,10 +16,70 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/step1/test_tag.go">
+        <entry file="file://$PROJECT_DIR$/src/step1/test_runtime.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="25" column="28" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="28" />
+            <state relative-caret-position="575">
+              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/step1/test_interface.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+              <folding>
+                <element signature="e#14#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/step1/test_interface2.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1925">
+              <caret line="77" column="43" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/step1/test_struct2.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="24" column="29" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/step1/test_struct_method.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="950">
+              <caret line="40" selection-start-line="40" selection-end-line="41" />
+              <folding>
+                <element signature="e#14#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/step1/test_select.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/step1/test_where.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="575">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="e#14#42#0" expanded="true" />
               </folding>
@@ -72,82 +88,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/step1/test_mem_mothon_ptr.go">
+        <entry file="file://$PROJECT_DIR$/src/step1/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-              <folding>
-                <element signature="e#14#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/step1/test_innert.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-              <folding>
-                <element signature="e#14#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/step1/test_runtime.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-              <folding>
-                <element signature="e#14#31#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="825">
+              <caret line="33" column="28" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/step2/test_pack_2/test_package2.go">
+        <entry file="file://$PROJECT_DIR$/src/step1/test_interface_type.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/step1/test_struct2.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="24" column="29" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/step1/test_select.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/step1/test_struct.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="17" column="27" selection-end-line="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/step1/test_member_func.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="18" column="16" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="16" />
+            <state relative-caret-position="402">
+              <caret line="48" column="25" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="25" />
               <folding>
                 <element signature="e#14#39#0" expanded="true" />
               </folding>
@@ -156,10 +109,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://E:/GO/src/time/time.go">
+        <entry file="file://$PROJECT_DIR$/src/step1/test_struct.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="1086" column="5" selection-start-line="1086" selection-start-column="5" selection-end-line="1086" selection-end-column="5" />
+            <state relative-caret-position="350">
+              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -207,7 +160,6 @@
         <option value="$PROJECT_DIR$/src/step1/test_map.go" />
         <option value="$PROJECT_DIR$/src/step1/test_struct.go" />
         <option value="$PROJECT_DIR$/src/step1/test_struct2.go" />
-        <option value="$PROJECT_DIR$/src/step1/test_interface.go" />
         <option value="$PROJECT_DIR$/src/step1/test_struct_method.go" />
         <option value="$PROJECT_DIR$/src/step1/test_error_handle.go" />
         <option value="$PROJECT_DIR$/src/step1/test_func.go" />
@@ -237,6 +189,9 @@
         <option value="$PROJECT_DIR$/src/step1/test_innert.go" />
         <option value="$PROJECT_DIR$/src/step1/test_runtime.go" />
         <option value="$PROJECT_DIR$/src/step2/test_pack_2/test_package2.go" />
+        <option value="$PROJECT_DIR$/src/step1/test_interface.go" />
+        <option value="$PROJECT_DIR$/src/step1/test_interface2.go" />
+        <option value="$PROJECT_DIR$/src/step1/test_interface_type.go" />
       </list>
     </option>
   </component>
@@ -254,7 +209,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -320,6 +274,21 @@
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
               <item name="Go SDK 1.12.5" type="20ee2d1f:SyntheticLibraryElementNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="compress" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn_go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.12.5" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="compress" type="462c0819:PsiDirectoryNode" />
+              <item name="flate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn_go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Go SDK 1.12.5" type="20ee2d1f:SyntheticLibraryElementNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="fmt" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -355,6 +324,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -384,7 +354,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build test_runtime.go">
+  <component name="RunManager" selected="Go Build.go build test_interface_type.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="learn_go" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -414,20 +384,29 @@
       <output_directory value="E:\GoWorkSpace\learn_go\bin" />
       <method v="2" />
     </configuration>
-    <configuration name="go build test_mem_mothon_ptr.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build test_interface2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learn_go" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/step1/test_mem_mothon_ptr.go" />
+      <filePath value="$PROJECT_DIR$/src/step1/test_interface2.go" />
       <directory value="$PROJECT_DIR$/" />
       <output_directory value="E:\GoWorkSpace\learn_go\bin" />
       <method v="2" />
     </configuration>
-    <configuration name="go build test_member_func.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build test_interface.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learn_go" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/step1/test_member_func.go" />
+      <filePath value="$PROJECT_DIR$/src/step1/test_interface.go" />
+      <directory value="$PROJECT_DIR$/" />
+      <output_directory value="E:\GoWorkSpace\learn_go\bin" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build test_interface_type.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="learn_go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/step1/test_interface_type.go" />
       <directory value="$PROJECT_DIR$/" />
       <output_directory value="E:\GoWorkSpace\learn_go\bin" />
       <method v="2" />
@@ -441,30 +420,21 @@
       <output_directory value="E:\GoWorkSpace\learn_go\bin" />
       <method v="2" />
     </configuration>
-    <configuration name="go build test_tag.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="learn_go" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/step1/test_tag.go" />
-      <directory value="$PROJECT_DIR$/" />
-      <output_directory value="E:\GoWorkSpace\learn_go\bin" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Go Build.go build learn_go/" />
-      <item itemvalue="Go Build.go build test_tag.go" />
-      <item itemvalue="Go Build.go build test_member_func.go" />
-      <item itemvalue="Go Build.go build test_mem_mothon_ptr.go" />
       <item itemvalue="Go Build.go build test_innert.go" />
       <item itemvalue="Go Build.go build test_runtime.go" />
+      <item itemvalue="Go Build.go build test_interface2.go" />
+      <item itemvalue="Go Build.go build test_interface.go" />
+      <item itemvalue="Go Build.go build test_interface_type.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build test_interface_type.go" />
+        <item itemvalue="Go Build.go build test_interface2.go" />
+        <item itemvalue="Go Build.go build test_interface.go" />
         <item itemvalue="Go Build.go build test_runtime.go" />
         <item itemvalue="Go Build.go build test_innert.go" />
-        <item itemvalue="Go Build.go build test_mem_mothon_ptr.go" />
-        <item itemvalue="Go Build.go build test_member_func.go" />
-        <item itemvalue="Go Build.go build test_tag.go" />
       </list>
     </recent_temporary>
   </component>
@@ -481,12 +451,12 @@
     <frame x="-8" y="-8" width="1936" height="1035" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18710022" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3295325" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295325" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3990878" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -562,13 +532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/step1/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="33" column="28" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://E:/GO/src/math/sqrt.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -580,16 +543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="15" column="33" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="33" />
-          <folding>
-            <element signature="e#14#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/step1/test_struct_method.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
           <folding>
             <element signature="e#14#31#0" expanded="true" />
           </folding>
@@ -641,13 +594,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8200">
           <caret line="328" column="5" selection-start-line="328" selection-start-column="5" selection-end-line="328" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/step1/test_interface.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="26" column="12" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -746,16 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/step1/test_where.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#14#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/step1/test_map_sort.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -818,19 +754,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/step1/test_member_func.go">
+    <entry file="file://E:/GO/src/compress/flate/inflate_test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="18" column="16" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="16" />
-          <folding>
-            <element signature="e#14#39#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-450">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/step1/test_tag.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
+        <state relative-caret-position="550">
           <caret line="25" column="28" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="28" />
           <folding>
             <element signature="e#14#42#0" expanded="true" />
@@ -840,7 +773,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/step1/test_mem_mothon_ptr.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
+        <state relative-caret-position="575">
           <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
           <folding>
             <element signature="e#14#31#0" expanded="true" />
@@ -850,39 +783,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/step1/test_innert.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
+        <state relative-caret-position="650">
           <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-          <folding>
-            <element signature="e#14#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/step1/test_select.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/step1/test_struct2.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/step1/test_struct.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="17" column="27" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/step1/test_runtime.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
           <folding>
             <element signature="e#14#31#0" expanded="true" />
           </folding>
@@ -892,7 +794,99 @@
     <entry file="file://$PROJECT_DIR$/src/step2/test_pack_2/test_package2.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/step1/test_member_func.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="16" />
+          <folding>
+            <element signature="e#14#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/step1/test_runtime.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/step1/test_interface.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+          <folding>
+            <element signature="e#14#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/step1/test_interface2.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1925">
+          <caret line="77" column="43" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/step1/test_struct2.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/step1/test_struct_method.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="40" selection-start-line="40" selection-end-line="41" />
+          <folding>
+            <element signature="e#14#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/step1/test_select.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/step1/test_where.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#14#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/step1/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="33" column="28" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/step1/test_struct.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/step1/test_interface_type.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="48" column="25" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="25" />
+          <folding>
+            <element signature="e#14#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
