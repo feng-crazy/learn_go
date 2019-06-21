@@ -22,7 +22,8 @@ var secret interface{} = NotknownType{"Ada", "Go", "Oberon"}
 
 func main() {
 	value := reflect.ValueOf(secret) // <main.NotknownType Value>
-	typ := reflect.TypeOf(secret)    // main.NotknownType
+	//typ := reflect.TypeOf(secret)    // main.NotknownType
+	typ := value.Type()    // main.NotknownType
 	// alternative:
 	//typ := value.Type()  // main.NotknownType
 	fmt.Println(typ)
@@ -35,7 +36,7 @@ func main() {
 		// error: panic: reflect.Value.SetString using value obtained using unexported field
 		//value.Field(i).SetString("C#")
 	}
-
+	fmt.Println("********", value.NumMethod())
 	// call the first method, which is String():
 	results := value.Method(0).Call(nil)
 	fmt.Println(results) // [Ada - Go - Oberon]

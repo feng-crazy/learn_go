@@ -13,6 +13,18 @@ type Customer struct {
 	log  *Log
 }
 
+func (l *Log) Add(s string) {
+	l.msg += "\n" + s
+}
+
+func (l *Log) String() string {
+	return l.msg
+}
+
+func (c *Customer) Log() *Log {
+	return c.log
+}
+
 func main() {
 	c := new(Customer)
 	c.Name = "Barak Obama"
@@ -28,14 +40,3 @@ func main() {
 
 }
 
-func (l *Log) Add(s string) {
-	l.msg += "\n" + s
-}
-
-func (l *Log) String() string {
-	return l.msg
-}
-
-func (c *Customer) Log() *Log {
-	return c.log
-}

@@ -2,23 +2,30 @@ package main
 
 import "fmt"
 
+type MyString string
+
 type Books struct {
 	title   string
 	author  string
 	subject string
 	book_id int
-	haha    *string
+	*MyString
+}
+
+func(m MyString) ToString1() string{
+	return string(m) + "haha"
 }
 
 func main() {
 	var Book1 Books /* Declare Book1 of type Book */
 	var Book2 Books /* Declare Book2 of type Book */
 	//var tmp_str_ptr *string
-	tmp_str := string("haha")
+	tmp_str := MyString("haha")
 	tmp_str_ptr := &tmp_str
 	//tmp_str_ptr := &(string("haha"))
 
 	Book3 := Books{"haha", "you", "sb", 0, tmp_str_ptr}
+	fmt.Println("*************", Book3.ToString1())
 	var Book4 *Books = &Books{"haha", "you", "sb", 0, nil}
 	Book5 := &Books{title: "haha", author: "you", book_id: 0}
 	fmt.Println(Books{title: "Go 语言", author: "www.runoob.com", subject: "Go 语言教程", book_id: 6495407})

@@ -20,6 +20,7 @@ func main() {
 	// 获取tag中的内容
 	t := reflect.TypeOf(u)
 	field := t.Elem().Field(0)
+	fmt.Println(field)
 	fmt.Println(field.Tag.Get("json"))
 	// 输出：user_id
 	fmt.Println(field.Tag.Get("bson"))

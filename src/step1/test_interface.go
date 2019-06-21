@@ -9,7 +9,7 @@ type Phone interface {
 }
 
 type _3GPhone struct {
-	Phone
+	//Phone
 }
 
 type NokiaPhone struct {
