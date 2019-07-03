@@ -5,8 +5,14 @@ import (
 	"reflect"
 )
 
+type NotKnownTypeTest struct {
+	f1, f2, f3 float64
+}
+
 type NotknownType struct {
 	s1, s2, s3 string
+	integer1   int
+	n1 NotKnownTypeTest
 }
 
 func (n NotknownType) String2() string{
@@ -18,10 +24,11 @@ func (n NotknownType) String() string {
 }
 
 // variable to investigate:
-var secret interface{} = NotknownType{"Ada", "Go", "Oberon"}
+var secret interface{} = NotknownType{"Ada", "Go", "Oberon", 100,NotKnownTypeTest{1.0, 20, 30}}
 
 func main() {
-	value := reflect.ValueOf(secret) // <main.NotknownType Value>
+	var value reflect.Value
+	value = reflect.ValueOf(secret) // <main.NotknownType Value>
 	//typ := reflect.TypeOf(secret)    // main.NotknownType
 	typ := value.Type()    // main.NotknownType
 	// alternative:
@@ -32,7 +39,19 @@ func main() {
 
 	// iterate through the fields of the struct:
 	for i := 0; i < value.NumField(); i++ {
-		fmt.Printf("Field %d: %v\n", i, value.Field(i))
+		var valueField reflect.Value
+		valueField = value.Field(i)
+		fmt.Printf("Field %d: %v , %s \n", i, valueField, valueField.String())
+		if i==3{
+			fmt.Printf("Field %d: %v , %d \n", i, valueField, valueField.Int())
+		}
+		if i==4{
+			fmt.Printf("Field %d: %v , %d \n", i, valueField, valueField.Bytes())
+		}
+		//b_arr := valueField.Bytes()
+		//for i, _ := range b_arr {
+		//	fmt.Printf("%02x ", i)
+		//}
 		// error: panic: reflect.Value.SetString using value obtained using unexported field
 		//value.Field(i).SetString("C#")
 	}
