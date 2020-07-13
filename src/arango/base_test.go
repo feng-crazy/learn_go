@@ -1,4 +1,4 @@
-package arango_test
+package arango
 
 import (
 	"context"

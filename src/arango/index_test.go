@@ -1,4 +1,4 @@
-package arango_test
+package arango
 
 import (
 	"context"
@@ -48,6 +48,7 @@ func TestIndex(t *testing.T) {
 	if driver.IsConflict(err) {
 		t.Errorf("Expected Conflict error, got %s", describe(err))
 	}
+
 	fmt.Println(err)
 	fmt.Println(meta)
 }
